@@ -11,12 +11,21 @@ h1{
     border: 10px groove lightblue;
     font-style: italic;
     font-size: 40px;
+    font-weight: bold;
 
 }
 
 
-.bio {
+p {
     background-color: aqua;
     border: 1px solid gray;
-    margin: 5px 2% 5px 2%;
+    margin: 15px 2% 5px 2%;
+    padding: 10px;
+    font-size: 25px;
+}
+footer {
+    background-color: darkslategrey;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
