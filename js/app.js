@@ -55,7 +55,7 @@ default:
 }
 // console.log('Your answer to the fourth question was ' + height);
 
-var grades = prompt('Where my final average grades in university above 80?').toLowerCase();
+var grades = prompt('Were my final average grades in university above 80?').toLowerCase();
 switch (grades) {
 case 'yes':
   alert('Yes, my grade was 80.1! (barely over 80 haha)');
