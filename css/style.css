@@ -1,0 +1,22 @@
+*{
+    background-color: blanchedalmond;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 10px;
+    border: 10px groove lightblue;
+    font-style: italic;
+    font-size: 40px;
+
+}
+
+
+.bio {
+    background-color: aqua;
+    border: 1px solid gray;
+    margin: 5px 2% 5px 2%;
+}
