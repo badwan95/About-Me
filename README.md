@@ -1,10 +1,8 @@
-# About-Me
-A site that shows information about myself
 
-## Overview
+# About Me Project Overview
 
-## Read
+* This site is a site that gives info about me.
 
-## Daily Plan
+* The site does a little quiz for some of my personal info with an interactive question and answers!
 
-## Learning Objectives
+* I will be updating this site regularly and adding new things to it, so keep an eye out!
