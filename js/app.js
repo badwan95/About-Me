@@ -15,21 +15,22 @@ function enjoyClass() {
   }
 }
 enjoyClass();
+
 function havePets() {
   var havePets = prompt('Do I have a pet?').toLowerCase();
   switch (havePets) {
-    case 'yes':
-    case 'y':
-      alert('Wrong! I dont have a pet but i would like to have one.');
-      break;
-    case 'no':
-    case 'n':
-      alert('That\'s right! I dont have a pet');
-      userScore = userScore + 1;
-      break;
-    default:
-      alert('Please answer with yes or no!');
-      break;
+  case 'yes':
+  case 'y':
+    alert('Wrong! I dont have a pet but i would like to have one.');
+    break;
+  case 'no':
+  case 'n':
+    alert('That\'s right! I dont have a pet');
+    userScore = userScore + 1;
+    break;
+  default:
+    alert('Please answer with yes or no!');
+    break;
   }
 }
 havePets();
@@ -37,18 +38,18 @@ havePets();
 function weight() {
   var weight = prompt('Do I weight over 70 kilograms? ').toLowerCase();
   switch (weight) {
-    case 'yes':
-    case 'y':
-      alert('No! I\'m just 64 Kilograms');
-      break;
-    case 'no':
-    case 'n':
-      alert('Yep that\'s right, i weight only 64 kilograms');
-      userScore = userScore + 1;
-      break;
-    default:
-      alert('Please answer with a yes or a no');
-      break;
+  case 'yes':
+  case 'y':
+    alert('No! I\'m just 64 Kilograms');
+    break;
+  case 'no':
+  case 'n':
+    alert('Yep that\'s right, i weight only 64 kilograms');
+    userScore = userScore + 1;
+    break;
+  default:
+    alert('Please answer with a yes or a no');
+    break;
   }
 }
 weight();
@@ -56,18 +57,18 @@ weight();
 function height() {
   var height = prompt('Is my height over 170 cm?').toLowerCase();
   switch (height) {
-    case 'yes':
-    case 'y':
-      alert('Yes, my height is 177 cm');
-      userScore = userScore + 1;
-      break;
-    case 'no':
-    case 'n':
-      alert('No, my height is over 170 cm');
-      break;
-    default:
-      alert('Please answer with a yes or a no');
-      break;
+  case 'yes':
+  case 'y':
+    alert('Yes, my height is 177 cm');
+    userScore = userScore + 1;
+    break;
+  case 'no':
+  case 'n':
+    alert('No, my height is over 170 cm');
+    break;
+  default:
+    alert('Please answer with a yes or a no');
+    break;
   }
 }
 height();
@@ -75,20 +76,21 @@ height();
 function grades() {
   var grades = prompt('Were my final average grades in university above 80?').toLowerCase();
   switch (grades) {
-    case 'yes':
-    case 'y':
-      alert('Yes, my grade was 80.1! (barely over 80 haha)');
-      userScore = userScore + 1;
-      break;
-    case 'no':
-    case 'n':
-      alert('No, my grades were above 80');
-      break;
-    default:
-      alert('Please answer with a yes or a no');
-      break;
+  case 'yes':
+  case 'y':
+    alert('Yes, my grade was 80.1! (barely over 80 haha)');
+    userScore = userScore + 1;
+    break;
+  case 'no':
+  case 'n':
+    alert('No, my grades were above 80');
+    break;
+  default:
+    alert('Please answer with a yes or a no');
+    break;
   }
 }
+grades();
 function favNumber() {
   var favNumber = prompt('From 0 to 10, which number do you think is my favorite?');
   favNumber = Number(favNumber);
