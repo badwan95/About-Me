@@ -14,3 +14,5 @@
 * Just answer the questions that pop up and you will see if you know me good or not! hope you enjoy it.
 
 * I have added 6th question that takes a numeric value and guess if its right, while the 7th question has multiple correct answers, both got limited number of tries.
+
+## @yaljamal add the function to @ammar code and modified .  
