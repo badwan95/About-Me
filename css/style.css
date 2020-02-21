@@ -1,7 +1,39 @@
 *{
-    background-color: blanchedalmond;
+    color: black;
 }
-h1{
+body{
+    padding: 45px 75px 75px;
+}
+#main-background{
+    background-image: linear-gradient(#c2c7c6,#c9eeec);
+}
+.description{
+    width: 100%;
+}
+.name{
+font-family: "Comic Sans MS", cursive, sans-serif;
+color:#423a38;
+font-weight: bolder;
+font-size: 30px;
+margin-bottom: 17px;
+width:auto;
+}
+.subName{
+color:#99860e;
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-weight: bolder;
+font-size: 30px;
+margin-bottom: 17px;
+width:auto;
+}
+nav ul{
+    float:right;
+}
+#about > * {
+    padding-top: 10px;
+}
+
+/* h1{
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
@@ -16,7 +48,7 @@ h1{
 }
 
 
-.bio {
+#about {
     background-color: aqua;
     border: 1px solid gray;
     margin: 15px 2% 5px 2%;
@@ -27,4 +59,4 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
-}
+} */
