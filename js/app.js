@@ -13,6 +13,7 @@ function enjoyClass() {
   } else {
     alert('Please answer with a yes or no!');
   }
+  console.log('Your answer to the first question was ' + enjoyClass);
 }
 enjoyClass();
 
@@ -32,6 +33,7 @@ function havePets() {
     alert('Please answer with yes or no!');
     break;
   }
+  console.log('Your answer to the second question was ' + havePets);
 }
 havePets();
 
@@ -51,6 +53,7 @@ function weight() {
     alert('Please answer with a yes or a no');
     break;
   }
+  console.log('Your answer to the third question was ' + weight);
 }
 weight();
 
@@ -70,6 +73,7 @@ function height() {
     alert('Please answer with a yes or a no');
     break;
   }
+  console.log('Your answer to the fourth question was ' + height);
 }
 height();
 
@@ -89,6 +93,7 @@ function grades() {
     alert('Please answer with a yes or a no');
     break;
   }
+  console.log('Your answer to the fifth question was ' + grades );
 }
 grades();
 function favNumber() {

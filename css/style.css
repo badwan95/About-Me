@@ -1,62 +1,122 @@
-*{
-    color: black;
-}
 body{
-    padding: 45px 75px 75px;
-}
-#main-background{
+    font-family: "Comic Sans MS", cursive, sans-serif;
     background-image: linear-gradient(#c2c7c6,#c9eeec);
+    line-height: 25px;
 }
-.description{
-    width: 100%;
+main{
+    min-height: calc(100vh - 115px - 45px);
+}
+header {
+    padding: 20px 40px 95px 55px;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(rgb(171, 171, 187),rgb(114, 112, 114));
+}
+nav ul li {
+    display: inline-block;
+    padding-top: 25px;
+    font-size: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0px 15px;
+    color: #423a38;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color: rgb(124, 105, 105);
 }
 .name{
-font-family: "Comic Sans MS", cursive, sans-serif;
-color:#423a38;
-font-weight: bolder;
-font-size: 30px;
-margin-bottom: 17px;
-width:auto;
+    float: left;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 30px;
 }
-.subName{
-color:#99860e;
-font-family: "Comic Sans MS", cursive, sans-serif;
-font-weight: bolder;
-font-size: 30px;
-margin-bottom: 17px;
-width:auto;
+.name h1{
+    color: #423a38;
+    padding-bottom: 20px;
 }
-nav ul{
+.name p{
+    color:#72640b;
+}
+nav {
     float:right;
 }
-#about > * {
-    padding-top: 10px;
+.center {
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    font-weight: bolder;
+    color:rgb(66, 66, 66);
+    padding: 25px 0;
+    text-decoration: underline;
+    text-align: center;
 }
 
-/* h1{
-    text-transform: uppercase;
-    letter-spacing: 3px;
+#about p{
+    padding: 20px 50px;
+    font-size: 20px;
+    color: #2f3f4e;
+    text-align: justify;
+}
+#about p a{
+    text-decoration: none;
+    color: #2f3f4e;
+    font-weight: bolder;
+}
+#about p a:hover{
+    color: rgb(124, 105, 105);
+}
+h3 {
+    padding: 20px 40px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+#education p{
+    padding: 20px 30px;
+    font-size: 20px;
+    color: rgb(112, 104, 88);
+    text-align: justify;
+}
+#education ul li{
+    list-style-type: disc;
+    margin-left: 80px;
+}
+
+footer{
     text-align: center;
-    background-color: cadetblue;
-    margin: 10px;
-    padding: 10px;
-    border: 10px groove lightblue;
-    font-style: italic;
-    font-size: 40px;
+    padding: 20px 40px 25px 55px;
+    background-image: linear-gradient(rgb(114, 112, 114),rgb(171, 171, 187));
+}
+footer a{
+    text-decoration: none;
+    color: #2f3f4e;
+    font-weight: bolder;
+}
+footer a:hover{
+    color: rgb(124, 105, 105);
+}
+.games, ol{
+    margin: 25px;
+}
+ol li{
+    list-style-type: upper-roman;
+}
+.hobbies-title{
+    text-align: left;
+    font-size: 20px;
+    color: #2f3f4e;
+    padding-left: 50px;
+}
+
+.hobbies{
+    color: #2f3f4e;
+    display:inline-block;
     font-weight: bold;
-
-}
-
-
-#about {
-    background-color: aqua;
-    border: 1px solid gray;
-    margin: 15px 2% 5px 2%;
-    padding: 10px;
-}
-footer {
-    background-color: darkslategrey;
-    color: white;
-    padding: 20px;
+    width: 300px;
     text-align: center;
-} */
+    margin:20px;
+    margin-left: 60px;
+    padding:40px;
+}
